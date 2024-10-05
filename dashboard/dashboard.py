@@ -6,7 +6,7 @@ import plotly.express as px
 sns.set(style='dark')
 
 # Load the dataset
-all_df = pd.read_csv('all_df.csv')
+df = pd.read_csv('all_df.csv')
 
 st.title("Bike Rentals Dashboard")
 
